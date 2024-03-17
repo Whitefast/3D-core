@@ -1,0 +1,34 @@
+{
+    "name": "InputAction1",
+    "maps": [
+        {
+            "name": "CustomAction",
+            "id": "7af89ba3-be87-4421-8f5f-1b2ee9a6b002",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "1f78acac-84d5-4831-a1f0-4116bd15a5a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "561afa7d-daa0-4f6b-bdf5-ebec5d0bb99c",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
