@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class custominput : MonoBehaviour
 {
-    public void onMenu()
-    {
-        Debug.Log("Menu button has been pressed,yay!");
+    [SerializeField] GameObject Canvas;
+    public void onMenu() => Canvas.SetActive(!Canvas.activeInHierarchy);
 
-    }
+    //public void onMenu()
+    //{
+    //    Debug.Log("Menu button has been pressed,yay!");
+
+    //}
 }
